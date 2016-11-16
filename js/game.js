@@ -3,10 +3,6 @@ var game = new Phaser.Game(640, 640, Phaser.CANVAS, 'gameDiv', {
     create: this.create,
     update: this.update,
     render: this.render,
-    collectCherry: this.collectCherry,
-    collectCoin: this.collectCoin,
-    collectStar: this.collectStar,
-    collectCrate: this.collectCrate,
     BulletsWall: this.BulletsWall,
     BulletsSpriteBot1: this.BulletsSpriteBot1
 });
