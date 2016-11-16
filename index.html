@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Game 3</title>
+    <script type="text/javascript" src="phaser.min.js"></script>
+    <script type="text/javascript" src="js/boot.js"></script>
+    <script type="text/javascript" src="js/load.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/play.js"></script>
+    <script type="text/javascript" src="js/win.js"></script>
+    <script type="text/javascript" src="js/gameover.js"></script>
+    <script type="text/javascript" src="js/pausemenu.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <style type="text/css">
+
+        @font-face {
+            font-family: 'zombiesstation';
+            src: url('fonts/zombiesstation.otf');
+        }
+        body {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+
+    var map;
+    var layer;
+
+    var cursors;
+    var sprite;
+    var cherrys;
+    var CherryText;
+    var cherry = 0;
+    var coins;
+    var coin = 0;
+    var CoinText;
+    var stars;
+    var star = 0;
+    var StarText;
+    var walls;
+    var kisten;
+    var trap;
+    var crate;
+    var stonebigs;
+    var stonebig = 0;
+    var explosion;
+    var standingstill;
+    var zombies;
+    var stateText;
+    var spaceKey;
+    var togglePause;
+    var imagepausemenu;
+    var imagepausemenupic;
+    var bullets;
+    var fireRate = 200;
+    var nextFire = 0;
+    var PauseText;
+    var spriteBot1
+
+</script>
+<!--
+Autor Font: 'Typemachine Supply.co' http://www.1001fonts.com/zombies-station-font.html
+Autor Picture: 'ActonLiz' https://pixabay.com/de/apokalypse-post-apokalyptisches-1325398/
+Autor GameOver: 'Grzegorz-Skibka' https://pixabay.com/de/blau-himmel-wolke-wolken-1278829/
+Autor BG Menu: 'AmberAvalona' https://pixabay.com/de/zombie-forschungseinrichtung-1784653/
+-->
+    <div id="gameDiv"> </div>
+</body>
+</html>
