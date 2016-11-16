@@ -10,8 +10,32 @@
          "width":50,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "height":50,
+         "name":"ol1",
+         "objects":[
+                {
+                 "gid":16,
+                 "height":32,
+                 "id":266,
+                 "name":"Zombie",
+                 "rotation":-178.870267825512,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":504.312350143749,
+                 "y":355.318570448211
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "width":50,
+         "x":0,
+         "y":0
         }],
- "nextobjectid":266,
+ "nextobjectid":267,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tileheight":32,

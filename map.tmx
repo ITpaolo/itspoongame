@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="266">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="267">
  <tileset firstgid="1" name="meinekarte" tilewidth="32" tileheight="32" tilecount="9" columns="3">
   <image source="newmap/minimap.png" width="96" height="96"/>
  </tileset>
@@ -103,4 +103,7 @@
 68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68
 </data>
  </layer>
+ <objectgroup name="ol1">
+  <object id="266" name="Zombie" gid="16" x="504.312" y="355.319" width="32" height="32" rotation="-178.87"/>
+ </objectgroup>
 </map>

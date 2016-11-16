@@ -6,7 +6,7 @@ var playState = {
         //game.state.start('pausemenu');
 
         map = this.game.add.tilemap('map');
-        map.addTilesetImage('Complete', 'minimap1', 'minimap2', 'level1');
+        map.addTilesetImage('Complete', 'minimap1', 'minimap2', 'ZombieMove');
         map.setCollisionBetween(1, 99);
 
         layer = map.createLayer('level1');
@@ -33,7 +33,7 @@ var playState = {
         bullets.setAll('outOfBoundsKill', true);
 
 
-        map.createFromObjects('ol1', 43, 'wall', 0, true, false, walls);
+        map.createFromObjects('ol1', 16, 'zombies', 0, true, false, zombies);
 
 
         walls.immovable = true;
