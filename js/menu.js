@@ -1,4 +1,4 @@
-var menuState = {};
+var menuState = {
 /*
  create: function() {
 
@@ -11,10 +11,10 @@ var menuState = {};
  image.inputEnabled = true;
  image.events.onInputDown.add(this.start, this);
 
- },
+ },*/
 
  start: function() {
  game.state.start('play');
  }
 
- };*/
+ };

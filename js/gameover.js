@@ -1,4 +1,4 @@
-var gameoverState = {};
+var gameoverState = {
 /*
  create: function () {
  var imagegameover = game.add.sprite(320, 320, 'gameoverscreen');
@@ -17,5 +17,10 @@ var gameoverState = {};
  game.input.onTap.addOnce(function () {
  game.state.start('menu');});
  }
- }
- };*/
+ }*/
+
+    start: function() {
+        game.state.start('menu');
+    }
+
+ };
