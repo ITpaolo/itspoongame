@@ -6,7 +6,7 @@ var playState = {
         //game.state.start('pausemenu');
 
         map = this.game.add.tilemap('map');
-        map.addTilesetImage('Complete', 'minimap1', 'minimap2', 'ZombieMove');
+        map.addTilesetImage('tiles', 'minimap1', 'minimap2', 'zombies');
         map.setCollisionBetween(1, 99);
 
         layer = map.createLayer('level1');
