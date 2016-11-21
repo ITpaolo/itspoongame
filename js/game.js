@@ -2,9 +2,7 @@ var game = new Phaser.Game(640, 640, Phaser.CANVAS, 'gameDiv', {
     preload: this.preload,
     create: this.create,
     update: this.update,
-    render: this.render,
-    BulletsWall: this.BulletsWall,
-    BulletsSpriteBot1: this.BulletsSpriteBot1
+    render: this.render
 });
 
 game.state.add('boot', bootState);
