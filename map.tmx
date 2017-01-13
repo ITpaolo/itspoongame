@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextobjectid="31">
  <tileset firstgid="1" name="floor" tilewidth="32" tileheight="32" tilecount="1" columns="1">
-  <image source="floor.png" width="32" height="32"/>
+  <image source="assets/floor.png" width="32" height="32"/>
  </tileset>
  <tileset firstgid="2" name="table" tilewidth="32" tileheight="32" tilecount="4" columns="4">
-  <image source="table.png" width="128" height="32"/>
+  <image source="assets/table.png" width="128" height="32"/>
  </tileset>
  <tileset firstgid="6" name="box" tilewidth="32" tileheight="32" tilecount="1" columns="1">
-  <image source="box.png" width="32" height="32"/>
+  <image source="assets/box.png" width="32" height="32"/>
  </tileset>
  <tileset firstgid="7" name="alex" tilewidth="11" tileheight="40" tilecount="1" columns="1">
-  <image source="alex.png" width="11" height="40"/>
+  <image source="assets/Character/alex.png" width="11" height="40"/>
  </tileset>
  <tileset firstgid="8" name="marcel" tilewidth="11" tileheight="40" tilecount="1" columns="1">
-  <image source="marcel.png" width="11" height="40"/>
+  <image source="assets/Character/marcel.png" width="11" height="40"/>
  </tileset>
  <tileset firstgid="9" name="margus" tilewidth="11" tileheight="40" tilecount="1" columns="1">
-  <image source="margus.png" width="11" height="40"/>
+  <image source="assets/Character/margus.png" width="11" height="40"/>
  </tileset>
  <tileset firstgid="10" name="paolo" tilewidth="11" tileheight="40" tilecount="1" columns="1">
-  <image source="paolo.png" width="11" height="40"/>
+  <image source="assets/Character/paolo.png" width="11" height="40"/>
  </tileset>
  <tileset firstgid="11" name="philipp" tilewidth="11" tileheight="40" tilecount="1" columns="1">
-  <image source="philipp.png" width="11" height="40"/>
+  <image source="assets/Character/philipp.png" width="11" height="40"/>
  </tileset>
  <tileset firstgid="12" name="tobias" tilewidth="11" tileheight="40" tilecount="1" columns="1">
-  <image source="tobias.png" width="11" height="40"/>
+  <image source="assets/Character/tobias.png" width="11" height="40"/>
  </tileset>
  <tileset firstgid="13" name="screen" tilewidth="32" tileheight="26" tilecount="1" columns="1">
-  <image source="screen.png" width="32" height="26"/>
+  <image source="assets/screen.png" width="32" height="26"/>
  </tileset>
  <tileset firstgid="14" name="screenback" tilewidth="32" tileheight="26" tilecount="1" columns="1">
-  <image source="screenback.png" width="32" height="26"/>
+  <image source="assets/screenback.png" width="32" height="26"/>
  </tileset>
  <layer name="level1" width="16" height="16">
   <data encoding="csv">

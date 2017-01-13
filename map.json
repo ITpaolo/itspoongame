@@ -13,7 +13,7 @@
         }, 
         {
          "draworder":"topdown",
-         "height":16,
+         "height":0,
          "name":"OL1",
          "objects":[
                 {
@@ -73,7 +73,7 @@
                  "type":"",
                  "visible":true,
                  "width":15,
-                 "x":61.6666666666667,
+                 "x":61.6667,
                  "y":344
                 }, 
                 {
@@ -121,8 +121,8 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":55.3333333333333,
-                 "y":271.666666666667
+                 "x":55.3333,
+                 "y":271.667
                 }, 
                 {
                  "gid":13,
@@ -133,8 +133,8 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":85.3333333333333,
-                 "y":271.333333333333
+                 "x":85.3333,
+                 "y":271.333
                 }, 
                 {
                  "gid":13,
@@ -145,7 +145,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":389.333333333333,
+                 "x":389.333,
                  "y":128
                 }, 
                 {
@@ -157,8 +157,8 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":416.666666666667,
-                 "y":115.666666666667
+                 "x":416.667,
+                 "y":115.667
                 }, 
                 {
                  "gid":13,
@@ -169,8 +169,8 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":446.666666666667,
-                 "y":115.333333333333
+                 "x":446.667,
+                 "y":115.333
                 }, 
                 {
                  "gid":13,
@@ -181,7 +181,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":386.666666666667,
+                 "x":386.667,
                  "y":353
                 }, 
                 {
@@ -193,8 +193,8 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":415.333333333333,
-                 "y":342.666666666667
+                 "x":415.333,
+                 "y":342.667
                 }, 
                 {
                  "gid":13,
@@ -206,10 +206,10 @@
                  "visible":true,
                  "width":32,
                  "x":446,
-                 "y":342.333333333333
+                 "y":342.333
                 }, 
                 {
-                 "gid": 14,
+                 "gid":14,
                  "height":26,
                  "id":24,
                  "name":"ScreenBack",
@@ -217,7 +217,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":379.666666666667,
+                 "x":379.667,
                  "y":88
                 }, 
                 {
@@ -230,7 +230,7 @@
                  "visible":true,
                  "width":32,
                  "x":418,
-                 "y":102.333333333333
+                 "y":102.333
                 }, 
                 {
                  "gid":14,
@@ -242,7 +242,7 @@
                  "visible":true,
                  "width":32,
                  "x":461,
-                 "y":100.666666666667
+                 "y":100.667
                 }, 
                 {
                  "gid":14,
@@ -253,7 +253,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":379.333333333333,
+                 "x":379.333,
                  "y":309
                 }, 
                 {
@@ -278,12 +278,12 @@
                  "visible":true,
                  "width":32,
                  "x":461,
-                 "y":322.333333333333
+                 "y":322.333
                 }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":16,
+         "width":0,
          "x":0,
          "y":0
         }],
@@ -295,7 +295,7 @@
         {
          "columns":1,
          "firstgid":1,
-         "image":"floor.png",
+         "image":"assets\/floor.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -308,7 +308,7 @@
         {
          "columns":4,
          "firstgid":2,
-         "image":"table.png",
+         "image":"assets\/table.png",
          "imageheight":32,
          "imagewidth":128,
          "margin":0,
@@ -321,7 +321,7 @@
         {
          "columns":1,
          "firstgid":6,
-         "image":"box.png",
+         "image":"assets\/box.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -334,7 +334,7 @@
         {
          "columns":1,
          "firstgid":7,
-         "image":"alex.png",
+         "image":"assets\/Character\/alex.png",
          "imageheight":40,
          "imagewidth":11,
          "margin":0,
@@ -347,7 +347,7 @@
         {
          "columns":1,
          "firstgid":8,
-         "image":"marcel.png",
+         "image":"assets\/Character\/marcel.png",
          "imageheight":40,
          "imagewidth":11,
          "margin":0,
@@ -360,7 +360,7 @@
         {
          "columns":1,
          "firstgid":9,
-         "image":"margus.png",
+         "image":"assets\/Character\/margus.png",
          "imageheight":40,
          "imagewidth":11,
          "margin":0,
@@ -373,7 +373,7 @@
         {
          "columns":1,
          "firstgid":10,
-         "image":"paolo.png",
+         "image":"assets\/Character\/paolo.png",
          "imageheight":40,
          "imagewidth":11,
          "margin":0,
@@ -386,7 +386,7 @@
         {
          "columns":1,
          "firstgid":11,
-         "image":"philipp.png",
+         "image":"assets\/Character\/philipp.png",
          "imageheight":40,
          "imagewidth":11,
          "margin":0,
@@ -399,7 +399,7 @@
         {
          "columns":1,
          "firstgid":12,
-         "image":"tobias.png",
+         "image":"assets\/Character\/tobias.png",
          "imageheight":40,
          "imagewidth":11,
          "margin":0,
@@ -412,7 +412,7 @@
         {
          "columns":1,
          "firstgid":13,
-         "image":"screen.png",
+         "image":"assets\/screen.png",
          "imageheight":26,
          "imagewidth":32,
          "margin":0,
@@ -425,7 +425,7 @@
         {
          "columns":1,
          "firstgid":14,
-         "image":"screenback.png",
+         "image":"assets\/screenback.png",
          "imageheight":26,
          "imagewidth":32,
          "margin":0,
